@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns# website: http://ogp.me/ns/website#">
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, user-scalable=yes">
+<meta name="format-detection" content="telephone=no"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+<title>helloworld</title>
+
+<link rel="stylesheet" type="text/css" href="files/css/style.css">
+
+<script src="files/js/jquery-3.3.1.min.js"></script>
+<script src="files/js/script.js"></script>
+
+</head>
+<body>
+
+<div id="all">
+	<div id="main">
+
+		<div id="info">
+
+			<h1>Dummy Image Generator</h1>
+
+			<div class="inputarea">
+				<p class="label-wrap">
+					<label class="label" for="input-width">width</label>:
+					<input id="input-width" name="width" type="number" value="150" max="9999" min="1">
+				</p>
+			</div>
+
+			<div class="inputarea">
+				<p class="label-wrap">
+					<label class="label" for="input-height">height</label>:
+					<input id="input-height" name="height" type="number" value="150" max="9999" min="1">
+				</p>
+			</div>
+
+			<div class="inputarea">
+				<p class="label-wrap">
+					<label class="label" for="input-text">text</label>:
+					<input id="input-text" name="text" type="text" value="dummy">
+				</p>
+			</div>
+
+			<div class="inputarea">
+				<p class="label-wrap">
+					<label class="label" for="radio-type-jpeg">jpeg</label>:
+					<input id="radio-type-jpeg" name="type" type="radio" value="image/jpeg" checked>
+				</p>
+				<p class="label-wrap">
+					<label class="label" for="radio-type-png">png</label>:
+					<input id="radio-type-png" name="type" type="radio" value="image/png">
+				</p>
+			</div>
+
+		</div>
+		<div id="preview">
+			<figure class="preview-image">&nbsp;</figure>
+		</div>
+
+	</div>
+</div>
+
+</body>
+</html>
