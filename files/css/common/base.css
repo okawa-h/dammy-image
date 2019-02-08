@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* =======================================================================
+Init
+========================================================================== */
+*, *:before, *:after {
+	margin:0;
+	padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*,
+section,
+header,
+footer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-y: scroll;
+  word-break: normal;
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+:focus {
+  outline: 0;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+img {
+  border: 0;
+  vertical-align: bottom;
+}
+address {
+  font-style: normal;
+}
+/* =======================================================================
+Setup
+========================================================================== */
+body {
+  font-family: "Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", sans-serif;
+}
+p,
+li,
+dt,
+dl {
+  line-height: 1.5;
+  letter-spacing: 0px;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: normal;
+}
+a,
+a:link,
+a:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+div:after,
+ul:after,
+dl:after,
+li:after,
+p:after,
+section:after,
+article:after,
+header:after,
+footer:after,
+nav:after,
+aside:after {
+  display: block;
+  content: "";
+  clear: both;
+  visibility: hidden;
+}
+
